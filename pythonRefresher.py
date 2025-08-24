@@ -19,3 +19,15 @@ def hello(aString, age):
 retType = hello("Jubaer", 23)
 
 print(retType)
+
+dogNames = ["Tommy", "Max", "Sam", "Rocky", True, False, 43, 5.6]
+
+dogNames.insert(0, "Lucky")
+
+dogNames[1] = "Buddy"
+
+del(dogNames[3])
+
+print(len(dogNames))
+
+print(dogNames)
