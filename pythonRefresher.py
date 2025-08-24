@@ -1,4 +1,4 @@
-age = 24
+age = int(input("Enter your age: "))
 
 name = "Jubaer"
 
@@ -12,3 +12,10 @@ if age > 18 :
 
 else :
     print("You are not an adult.")
+
+def hello(aString, age):
+    return f"Hello {aString} you are {age} years old."
+
+retType = hello("Jubaer", 23)
+
+print(retType)
