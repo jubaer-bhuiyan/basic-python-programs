@@ -6,13 +6,14 @@ todayIsCold = True
 
 print(f"Hello, my name is {name} and I am {age} years old.")
 
-#Logical Part
+#If-Else Part
 if age > 18 :
     print("You are an adult.")
 
 else :
     print("You are not an adult.")
 
+#User Defined Fynction
 def hello(aString, age):
     return f"Hello {aString} you are {age} years old."
 
@@ -20,6 +21,7 @@ retType = hello("Jubaer", 23)
 
 print(retType)
 
+#List Part
 dogNames = ["Tommy", "Max", "Sam", "Rocky", True, False, 43, 5.6]
 
 dogNames.insert(0, "Lucky")
