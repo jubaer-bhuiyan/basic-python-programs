@@ -21,7 +21,7 @@ retType = hello("Jubaer", 23)
 
 print(retType)
 
-#List Part
+#List Part 
 dogNames = ["Tommy", "Max", "Sam", "Rocky", True, False, 43, 5.6]
 
 dogNames.insert(0, "Lucky")
