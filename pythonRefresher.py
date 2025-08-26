@@ -48,3 +48,19 @@ age = 0
 while age < 18:
     print(age)
     age += 1
+
+#Dictionary
+
+dogs = {
+    "Fido": 8,
+    "Buddy": 5,
+    "Rex": 2
+}
+
+del(dogs["Buddy"])
+
+dogs["Sam"] = 4
+
+dogs["Rex"] = 17
+
+print(dogs)
