@@ -33,3 +33,12 @@ del(dogNames[3])
 print(len(dogNames))
 
 print(dogNames)
+
+#FOr loop
+dogNames = ["Tommy", "Max", "Sam", "Rocky"]
+
+for dog in dogNames:
+    print(dog)
+
+for x in range(1,10):
+    print(x)
