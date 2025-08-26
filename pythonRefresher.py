@@ -47,4 +47,4 @@ for x in range(1,10):
 age = 0
 while age < 18:
     print(age)
-    age += 1 
+    age += 1
