@@ -42,3 +42,9 @@ for dog in dogNames:
 
 for x in range(1,10):
     print(x)
+
+#While loop
+age = 0
+while age < 18:
+    print(age)
+    age += 1
